@@ -1,0 +1,162 @@
+/* General Styles (remain unchanged from your initial code) */
+body {
+    font-family: 'Press Start 2P', cursive;
+    line-height: 1.2;
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.intro {
+    background: linear-gradient(135deg, #ff00ff, #00ff99);
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    border: 0.3rem solid #ffcc00;
+    box-shadow: 0 0 0.8rem rgba(255, 204, 0, 0.7);
+}
+
+.intro h1 {
+    font-size: 1.4rem;
+}
+
+.intro p {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+main {
+    padding: 1.5rem;
+}
+
+section {
+    margin: 1rem 0;
+    border: 0.2rem solid #00ccff;
+    border-radius: 0.3rem;
+    padding: 0.8rem;
+}
+
+section h2 {
+    font-size: 0.9rem;
+}
+
+section p {
+    font-size: 0.7rem;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.member {
+    text-align: center;
+    background: #333;
+    padding: 0.8rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 0.1rem rgba(255,255,255,0.2);
+    width: 30%; /* Adjusted width */
+    margin: 0.5rem;
+}
+
+.member-photo {
+    width: 30%; /* Adjust photo size for desktop */
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.social-links a {
+    margin: 0 0.5rem;
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.social-links a:hover {
+    color: #ffcc00;
+}
+
+.member h3 {
+    font-size: 1rem;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 0.8rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 0.3rem solid #ffcc00;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .member {
+        width: 45%; /* Adjust width for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .intro h1 {
+        font-size: 1.2rem; /* Adjust title for mobile */
+    }
+
+    .intro p {
+        font-size: 0.7rem; /* Adjust paragraph for mobile */
+    }
+
+    .team {
+        flex-direction: column; /* Stack team members vertically on mobile */
+        align-items: center;
+    }
+
+    .member {
+        width: 90%; /* Full width for mobile */
+        margin: 1rem 0; /* Add margin between stacked members */
+    }
+
+    .member-photo {
+        width: 70%; /* Adjust photo size for mobile */
+    }
+
+    section h2 {
+        font-size: 1rem; /* Larger section titles for mobile */
+    }
+
+    section p {
+        font-size: 0.8rem; /* Adjust paragraph font size */
+    }
+
+    .submit-btn {
+        width: 100%; /* Full width button for mobile */
+    }
+
+    footer {
+        padding: 2rem 1rem;  /* Increased padding for better spacing on mobile */
+        font-size: 0.6rem;  /* Slightly increase font size for readability */
+    }
+}
+
+
+#projects a{
+    color: #009311;
+}
+
+#projects li{
+    margin-bottom: 1rem;
+}
+
+
+
+
