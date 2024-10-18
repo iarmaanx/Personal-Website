@@ -9,6 +9,7 @@ body {
     overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
+
 .intro {
     background: linear-gradient(135deg, #ff00ff, #00ff99);
     color: white;
@@ -25,6 +26,11 @@ body {
 .intro p {
     font-size: 0.8rem;
     margin-top: 1rem;
+}
+
+
+.banner img{
+    width: 100%;
 }
 
 main {
@@ -50,6 +56,11 @@ section p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .member {
